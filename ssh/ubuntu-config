@@ -1,0 +1,4 @@
+Host FaF.github.com
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/ubuntu-FaF_ed25519

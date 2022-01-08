@@ -1,0 +1,2 @@
+* * * * * /bin/bash /usr/local/appuser/current/echo.sh >> /tmp/appuser_echo.txt 2>&1
+# * * * * * /bin/bash /usr/local/appuser/current/backup.sh >> /tmp/appuser_backup.txt 2>&1

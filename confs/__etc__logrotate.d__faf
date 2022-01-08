@@ -1,0 +1,9 @@
+/var/log/faf/*.log {
+        daily
+        missingok
+        rotate 7
+        compress
+        delaycompress
+        notifempty
+        create 664 ubuntu ubuntu
+}

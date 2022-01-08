@@ -1,0 +1,4 @@
+Host project.github.com
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/appuser-project_ed25519

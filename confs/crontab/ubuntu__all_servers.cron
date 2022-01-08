@@ -1,0 +1,16 @@
+# Fire and Fury CRONJOBS
+@reboot /bin/bash /usr/sbin/faf-startup.sh >> /var/log/faf/startup.log 2>&1
+* * * * * /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# Every 20 seconds
+# * * * * * sleep 20s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 40s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# Every 6 seconds
+# * * * * * sleep 6s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 12s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 18s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 24s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 30s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 36s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 42s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 48s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
+# * * * * * sleep 54s; /bin/bash /usr/sbin/faf-checkin.sh >> /var/log/faf/checkin.log 2>&1
